@@ -1,0 +1,59 @@
+.container{
+    padding: 2rem;
+}
+
+.select{
+    width: 100%;
+    max-width: 250px;
+    padding: 5px 10px;
+    border: 1px solid #939393;
+}
+
+.startButton{
+    padding: 5px 20px;
+    margin-left: 15px;
+    background: #0075d8;
+    color: #fff;
+    border: 1px solid #bdd5e9;
+}
+
+.squaresContainer{
+    padding-left: 2rem;
+    display: flex;
+    height: 100%;
+
+}
+
+.squares{
+    width: 50%;
+}
+
+.hoveredSquares{
+    margin-left: 1rem;
+    border-left: 2px solid black;
+    width: 50%;
+}
+
+.HoveredTitle{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.HoveredItems{
+    margin: 1rem 1rem 0 1rem ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HoveredItem{
+    background: #00bfff;
+    margin:0.5rem;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+}
